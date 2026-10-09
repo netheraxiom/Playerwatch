@@ -1,1 +1,21 @@
-
+{
+  "schemaVersion": 1,
+  "id": "playerwatch",
+  "version": "${version}",
+  "name": "PlayerWatch",
+  "description": "A customizable wristwatch mod for Minecraft Java Edition.",
+  "authors": [
+    "PlayerWatch"
+  ],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.playerwatch.PlayerWatch"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "fabric-api": "*"
+  }
+}
